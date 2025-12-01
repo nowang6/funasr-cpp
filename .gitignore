@@ -2,7 +2,6 @@
 build/
 _build/
 out/
-bin/
 
 # CMake build files
 CMakeCache.txt
