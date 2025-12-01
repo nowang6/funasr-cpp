@@ -1,0 +1,104 @@
+# Build directories
+build/
+_build/
+out/
+bin/
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.cmake.*
+
+# Compiled object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+funasr-wss-server-2pass
+funasr-wss-client-2pass
+
+# Precompiled headers
+*.gch
+*.pch
+
+# CMake user presets
+CMakeUserPresets.json
+CMakePresets.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependency directories
+_deps/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Third-party dependencies (if downloaded automatically)
+third_party/ffmpeg-master-latest-linux64-gpl-shared/
+third_party/onnxruntime-linux-x64-1.14.0/
+
+# Model files and large data files (common in ASR projects)
+models/
+*.onnx
+*.pb
+*.pbtxt
+*.model
+*.bin
+*.dict
+
+# Audio files (if any test data)
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Python cache (if any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Profiling data
+*.prof
+*.gprof
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
